@@ -36,8 +36,8 @@ timezone: +3733+12658	 # see https://en.wikipedia.org/wiki/List_of_tz_database_t
 author:
   type      : # "person" (default), "organization"
   name      : Seogki Kim
-  url       : 
-  avatar    : # path or url of avatar image (square)
+  url       :
+  avatar    : https://s3.us-west-2.amazonaws.com/secure.notion-static.com/6de37c9f-7d0d-414f-a058-3ec437084fd3/KakaoTalk_20200831_202337012_01.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210514%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210514T011355Z&X-Amz-Expires=86400&X-Amz-Signature=7818733e63785c8c76e672371ba9ea13ed7b8225f45859582d7755b26f3352c6&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22KakaoTalk_20200831_202337012_01.jpg%22# path or url of avatar image (square)
   bio       : I am an amazing person.
   email     : skkim4968@gmail.com
   facebook  : # "user_name" the last part of your profile url, e.g. https://www.facebook.com/user_name
@@ -118,7 +118,7 @@ sharing:
 ## => Comments
 ##############################
 comments:
-  provider: false # false (default), "disqus", "gitalk", "valine", "custom"
+  provider: gitalk # false (default), "disqus", "gitalk", "valine", "custom"
 
   ## Disqus
   disqus:
