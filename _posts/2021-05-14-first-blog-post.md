@@ -1,6 +1,6 @@
 ---
-title: Post with Header Image
-tags: TeXt
+title: First Blog Post
+tags: life
 article_header:
   type: cover
   image:
