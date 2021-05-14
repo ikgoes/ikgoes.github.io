@@ -1,11 +1,10 @@
-{%- if jekyll.environment != 'development' -%}
-  {%- if site.comments.provider == 'disqus' -%}
-    {%- include comments-providers/disqus.html -%}
-  {%- elsif site.comments.provider == 'gitalk' -%}
-    {%- include comments-providers/gitalk.html -%}
-  {%- elsif site.comments.provider == 'valine' -%}
-    {%- include comments-providers/valine.html -%}
-  {%- elsif site.comments.provider == 'custom' -%}
-    {%- include comments-providers/custom.html -%}
-  {%- endif -%}
-{%- endif -%}
+<!-- unnecessary file, however you can still use for comment section, e.g disqus -->
+<script
+  src="https://utteranc.es/client.js"
+  repo="username/reponame"
+  issue-term="pathname"
+  label="✨ comment ✨"
+  theme="github-light"
+  crossorigin="anonymous"
+  async
+></script>
