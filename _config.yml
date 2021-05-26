@@ -44,7 +44,11 @@ defaults:
       path: ""
     values:
       layout: post
-      comments: false
+      comments: 
+        provider: disqus
+        ...
+      disqus:
+        shortname: ikgoes-blog
 
 # Jekyll Compose default front matter
 jekyll_compose:
