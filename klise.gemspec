@@ -7,7 +7,7 @@ Gem::Specification.new do |spec|
   spec.email    = ["skkim4968@gmail.com"]
 
   spec.summary  = "🏖 Klisé is a minimalist Jekyll theme for running a personal site or blog, light & dark mode support."
-  spec.homepage = "https://github.com/piharpi/jekyll-klise"
+  spec.homepage = "https://github.com/ikgoes"
   spec.license  = "MIT"
 
   spec.metadata["plugin_type"] = "theme"
