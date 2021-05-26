@@ -2,7 +2,8 @@
 title: Colophon
 permalink: /about/
 layout: page
-excerpt: Nice to meet you! I am majoring in Computer Science and Engineering in Hanyang University in Korea. This is Hello Hello peeps, I'm student of computer science from Banyuwangi, living in Jogjakarta. This blog for documentation about my programming journey, running on jekyll, hosting on netlify and using my own simple theme.
+excerpt: Nice to meet you! I am majoring in Computer Science and Engineering in South Korea. 
+This blog will include my programming knowledges and make my learning visible
 comments: false
 ---
 
