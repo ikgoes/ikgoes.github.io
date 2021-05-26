@@ -47,8 +47,6 @@ defaults:
       layout: post
       comments: 
         provider: disqus
-      disqus:
-        shortname: ikgoes-blog
 
 # Jekyll Compose default front matter
 jekyll_compose:
@@ -66,6 +64,9 @@ number_of_posts: 5
 
 # Build settings
 # theme: klise
+disqus:
+  shortname: ikgoes-blog
+
 sass:
   style: compressed
 
