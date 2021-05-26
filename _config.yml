@@ -46,7 +46,6 @@ defaults:
       layout: post
       comments: 
         provider: disqus
-        ...
       disqus:
         shortname: ikgoes-blog
 
