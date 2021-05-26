@@ -61,6 +61,7 @@ comment: true
             <span hidden itemprop="publisher" itemtype="Person">{{ site.author.name }}</span>
             <span hidden itemprop="image">{{ page.image }}</span>
             <span hidden itemprop="mainEntityOfPage">{{ page.excerpt }}</span>
+            {% if page.comments %} • <a href="https://ikgoes.github.io{{ page.url }}#disqus_thread">0 Comments</a>{% endif %}
           </div>
           {% endif %}
         </header>
@@ -90,11 +91,9 @@ comment: true
 
     {% include footer.html %}
         
-    {%- if site.disqus.shortname -%}
-      {%- include disqus.html -%}
-    {%- endif -%}
   </div>
 </body>
 
 </html>
 
+{% include disqus.html %}
