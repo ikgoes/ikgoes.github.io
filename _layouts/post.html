@@ -1,5 +1,6 @@
 ---
 layout: compress
+comment: true
 ---
 
 <!DOCTYPE html>
@@ -88,6 +89,10 @@ layout: compress
     {% endif %}
 
     {% include footer.html %}
+        
+    <div id="post-disqus" class="container"> 
+      {% include disqus.html %} 
+    </div>
   </div>
 </body>
 

@@ -36,3 +36,7 @@
     });
   </script>
 {%- endif -%}
+
+{%- if site.disqus.shortname -%}
+  {%- include disqus.html -%}
+{%- endif -%}
