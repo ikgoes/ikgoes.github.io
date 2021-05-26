@@ -45,7 +45,7 @@ defaults:
       path: ""
     values:
       layout: post
-      comments: true
+      comments: 
         provider: disqus
       disqus:
         shortname: ikgoes-blog
