@@ -90,10 +90,11 @@ comment: true
 
     {% include footer.html %}
         
-    <div id="post-disqus" class="container"> 
-      {% include disqus.html %} 
-    </div>
+    {%- if site.disqus.shortname -%}
+      {%- include disqus.html -%}
+    {%- endif -%}
   </div>
 </body>
 
 </html>
+
