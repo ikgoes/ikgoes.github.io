@@ -3,7 +3,7 @@ title: ikgoes blog # site title
 description: >- # site description He's writing in Bahasa about web technology and experience as a journal for documentation things that he learned, meet him <a href="https://github.com/piharpi" target="_blank" rel="noopener">@github</a>.
   This page helps my memory to be visible.
 lang: en-US # default lang
-timezone: Asia/SouthKorea # set your timezone
+timezone: Asia/Seoul # set your timezone
 image: assets/img/avatar1.jpg # This image used for Open Graph more info https://ogp.me/
 repo: https://github.com/ikgoes # site repo [optional]
 mode: light # default theme "dark" | "light"
@@ -12,7 +12,8 @@ mode: light # default theme "dark" | "light"
 author:
   name: Seogki Kim # author name
   bio: >- # tell to the world    # The minimalist Jekyll theme, light and dark mode support, for running a personal site and blog, meet Klisé theme at <a href="https://github.com/piharpi/jekyll-klise" target="_blank" rel="noopener">@github</a>.
-    Nice to meet you! I am a student majoring in Computer Science.
+    Nice to meet you! 
+    I am a student majoring in Computer Science.
   username: seogki # general username
   github: github_seogki # github username
   twitter:  # twitter username
@@ -44,7 +45,7 @@ defaults:
       path: ""
     values:
       layout: post
-      comments: 
+      comments: true
         provider: disqus
       disqus:
         shortname: ikgoes-blog
