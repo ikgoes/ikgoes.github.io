@@ -89,9 +89,10 @@ comment: true
       {% include navigation.html %}
     {% endif %}
     <script data-ad-client="ca-pub-6266413293705872" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-    {% if page.comments != false %}
-	    {% include disqus_comments.html %}
-    {% endif %}  
+    {% include footer.html %}
+    <div id="post-disqus" class="container"> 
+      {% include disqus.html %} 
+    </div>
   </div>
 </body>
 
